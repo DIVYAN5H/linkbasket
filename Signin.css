@@ -3,30 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+.content{
 font-family: 'Questrial';
+background: #E5E5E5;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+width: 100vw;
 }
-section.signinpage{
-    height: 100vh;
-    width: 100vw;
-    background: #E5E5E5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 div.title{
-position: absolute;
-transform: translateY(-35vh);
+position: relative;
+transform: translateY(-10vh);
 
 font-style: normal;
 font-weight: normal;
+text-align: center;
 font-size: 30px;
 line-height: 31px;
 
 color: #000000;
 }
 div.card{
-position: absolute;
+position: relative;
 width: 380px;
 height: 412px;
 
@@ -104,44 +105,32 @@ button.a2{
     position: relative;
     top: 10px;
     width: 21vw;
-} 
-.a{
-    position: absolute;
-    width: 75vw;
-    transform: translate(-37.5vw,43vh);
 }
-.b{
+.footer{
     position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+hr{
     width: 75vw;
-
-    transform: translate(-37.5vw,48vh);
+    margin: 0px;
+    height: 10px;
+    background-color: #7F7F7F;
 }
 .blines{
-    position: absolute;
-transform: translateY(45vh);
-}
-.title2{
-position: absolute;
-transform: translate(-32vw,-0.7vh);/*y transformation is half of font height*/
-
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 21px;
-
-color: #FF4E4E;
-}
-.social{
-    position: absolute;
-transform: translate(20vw,-3vh);
-}
-.rights{
-    position: absolute;
-    transform: translate(-22.5vw,48vh);
     display: flex;
-    width: 45vw;
+    width: 70vw;
     justify-content: space-around;
 }
-.rights div{
-    padding: 0px 10px;
+.social{
+height: 30px;
+}
+.rights{
+    display: flex;
+    width: 45vw;
+    justify-content: space-evenly;
 }
