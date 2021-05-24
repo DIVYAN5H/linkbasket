@@ -72,6 +72,7 @@ div.or{
 div.line{
 height: 0;
 border: 1px solid #7F7F7F;
+width: 22vw;
 }
 input.button.a1{
     height: 51px;
@@ -99,12 +100,10 @@ button.a2{
 .a1{
     position: relative;
     top: 10px;
-    width: 21vw;
 }
 .b1{
     position: relative;
     top: 10px;
-    width: 21vw;
 }
 .footer{
     position: absolute;
