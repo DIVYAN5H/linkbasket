@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Questrial';
+}
+section.signinpage{
+    height: 100vh;
+    width: 100vw;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.title{
+position: absolute;
+transform: translateY(-35vh);
+
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 31px;
+
+color: #000000;
+}
+div.card{
+position: absolute;
+width: 380px;
+height: 412px;
+
+background: #fff;
+border-radius: 8px;
+}
+form{
+    position: relative;
+    top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #7F7F7F;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid #7F7F7F;
+    outline: none;
+    width: 332px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+div.ctext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 332px;
+    text-decoration: underline;
+}
+div.ctext a{
+    color: #7F7F7F;
+}
+div.or{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 332px;
+    height: 20px;
+    margin: 20px 0px;
+}
+div.line{
+height: 0;
+border: 1px solid #7F7F7F;
+}
+input.button.a1{
+    height: 51px;
+    width: 332px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background:#FF4E4E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.a2{
+    height: 51px;
+    width: 332px;
+    text-align: center;
+    color: #FF4E4E;
+    border: none;
+    border: 1px solid #FF4E4E;
+    border-radius: 5px;
+    background:#FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.a1{
+    position: relative;
+    top: 10px;
+    width: 21vw;
+}
+.b1{
+    position: relative;
+    top: 10px;
+    width: 21vw;
+} 
+.a{
+    position: absolute;
+    width: 75vw;
+    transform: translate(-37.5vw,43vh);
+}
+.b{
+    position: absolute;
+    width: 75vw;
+
+    transform: translate(-37.5vw,48vh);
+}
+.blines{
+    position: absolute;
+transform: translateY(45vh);
+}
+.title2{
+position: absolute;
+transform: translate(-32vw,-0.7vh);/*y transformation is half of font height*/
+
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+
+color: #FF4E4E;
+}
+.social{
+    position: absolute;
+transform: translate(20vw,-3vh);
+}
+.rights{
+    position: absolute;
+    transform: translate(-22.5vw,48vh);
+    display: flex;
+    width: 45vw;
+    justify-content: space-around;
+}
+.rights div{
+    padding: 0px 10px;
+}
