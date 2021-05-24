@@ -3,7 +3,8 @@ import './Signin.css'
 
 export const Signin = () => {
     return (
-        <section className="signinpage">
+        <>
+            <div className="content">
             <div className="title">
                 linkbasket
             </div>
@@ -21,22 +22,20 @@ export const Signin = () => {
                     <button className="button a2">Login with google</button>
                 </form>
             </div>
+            </div>
             <div className="footer">
-                <div className="line a"></div>
-                <div className="blines">
-                    <div className="title2">linkbasket</div>
+                <hr />
                     <div className="social">
                         <div className="insta"><a href="#"><i className="fab fa-instagram fa-3x"></i></a></div>
                         <div className="fb"><a href="#"><i class="fab fa-facebook-square fa-3x"></i></a></div>
                         <div className="lin"><a href="#"><i class="fab fa-linkedin-in fa-3x"></i></a></div>
                     </div>
-                </div>
-                <div className="line b"></div>
+                <hr />
                 <div className="rights">
                     <div>copyright&nbsp;&copy;&nbsp;linkbasket&nbsp;2021</div>
                     <div>developed&nbsp;by&nbsp;quadqode</div>
                 </div>
             </div>
-        </section>
+            </>
     )
 }
