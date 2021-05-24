@@ -136,3 +136,36 @@ height: 30px;
 .rights div{
     padding: 0px 10px;
 }
+@media (max-width: 475px) {
+    div.title{
+        font-size: 25px;
+        
+        }
+    div.card{
+        width: 90vw;
+        }
+
+    form input{
+        width: 80vw;
+    }
+    div.ctext{
+        font-size: 0.8rem;
+        width: 80vw;
+    }
+    div.or{
+        width: 80vw;
+        height: 20px;
+        margin: 20px 0px;
+    }
+    input.button.a1{
+        height: 45px;
+        width: 80vw;
+    }
+    button.a2{
+        height: 45px;
+        width: 80vw;
+    }
+    .rights div{
+        font-size: 10px;
+    }
+}
